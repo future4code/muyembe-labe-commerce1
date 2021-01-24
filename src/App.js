@@ -1,26 +1,22 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header';
 import { Carrousel } from './components/Carrousel';
-import Header from './components/header'
-import Footer from './components/footer'
-import styled from 'styled-components'
+import { Produtos } from './components/Produtos';
+import Footer from './components/footer';
 
-const Div = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
-  height: 100vh;
-  width: 100%;
-`
+
 
 function App() {
   return (
-    <Div>
+    <div className="body">
       <Header />
       <Carrousel />
+      <Produtos/>
+      <Produtos/>
+      <Produtos/>
       <Footer />
-    </Div>
+    </div>
   );
 }
 
