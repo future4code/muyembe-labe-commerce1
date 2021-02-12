@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+    padding-bottom: 4px;
+}
+.produtos{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.produtosIndividuais{
+    width: 30%;
+}
+.produtosIndividuais img{
+    padding: 0.5vh;
+    width: 30vh;
+}
+
+.produtosIndividuais h3{
+    padding: 2vh;
+}
+.produtosIndividuais p{
+    font-size: 2vh;
+}
+
+.produtosIndividuais h4{
+    margin-top: -2vh;
+    font-size: 3vh;
+
+}
+.botao{
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.botaoCarrinho{
+    background:rgb(36, 36, 36);
+    color:#fff;
+    box-shadow:0 5px 0 #000000;
+}
+
+  .botaoCarrinho:hover{
+    background:#832525;
+    box-shadow:0 5px 0 #660e0e;
+}
+
+.botaoCarrinho:active{
+    position:relative;
+    top: 5px;
+    box-shadow:none;
+}
